@@ -35,12 +35,14 @@
 
         Fn {
             bindings = <
-&none        &none                   &none  &none     &none       &none  &none                                      &none           &none     &none   &none   &none   &none                 &none
-&none        &kp C_BACKLIGHT_TOGGLE  &none  &none     &none       &none  &trans                                     &none           &none     &kp N7  &kp N8  &kp N9  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
-&none        &none                   &none  &kp BSPC  &kp DELETE  &none  &trans  &trans  &none       &none  &none   &studio_unlock  &kp HOME  &kp N4  &kp N5  &kp N6  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-&none        &none                   &none  &none     &none       &none                  &none       &none                          &kp END   &kp N1  &kp N2  &kp N3  &none                 &none
-&kp C_PAUSE  &none                   &none  &none     &none              &trans  &trans  &trans      &none  &trans  &kp N0                    &kp N0  &none   &none   &none                 &none
+&none            &none                   &none  &none     &none       &none  &none                                      &none           &none     &none   &none   &none   &none                 &none
+&none            &kp C_BACKLIGHT_TOGGLE  &none  &none     &none       &none  &trans                                     &none           &none     &kp N7  &kp N8  &kp N9  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
+&none            &none                   &none  &kp BSPC  &kp DELETE  &none  &trans  &trans  &none       &none  &none   &studio_unlock  &kp HOME  &kp N4  &kp N5  &kp N6  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&none            &none                   &none  &none     &none       &none                  &none       &none                          &kp END   &kp N1  &kp N2  &kp N3  &none                 &none
+&kp PAUSE_BREAK  &none                   &none  &none     &none              &trans  &trans  &trans      &none  &trans  &kp N0                    &kp N0  &none   &none   &none                 &none
             >;
+
+            label = "Fn";
         };
 
         Arrows {
@@ -51,6 +53,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &trans        &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans        &trans     &trans  &trans
             >;
+
+            label = "Arrows";
         };
 
         QWERTY {
